@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Navbar{
+    background-color: rgb(203, 104, 242);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   height: 50px;
+}
+.nav-ul{
+    display: inline-flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.nav-list{
+    font-size: larger;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.active-link{
+    color: #000;
+}
+
+.search{
+    margin-right: 3rem;
+    display: flex;
+    gap: 4px;
+}
+
+.searchbar{
+    border-radius: 30px;
+    height: 1.8rem;
+    width: 14rem;
+    text-align: center;
+}
+
+.searchbtn{
+    border-radius: 30px;
+    height: 2rem;
+    width: 4rem;
+    text-align: center;
+    color: white;
+    background-color: #2563eb;
+}
+
+.home-btn{
+    background-color:  rgb(68, 110, 249);
+    color: white;
+    height: 40px;
+    width: 110px;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 20px;
+}
+
+.no-data{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-container h1{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    width: 20vw;
+    border-radius:20px;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.info-container::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute; /* it will position the pseudo element relative to body */
+    background-image: url('https://plus.unsplash.com/premium_photo-1677567996070-68fa4181775a?q=80&w=1772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'),url(C:\Users\hp\OneDrive\Desktop\mern_projects\InfoTech_hub\frontend\src\library.jpg);
+    background-size: contain;
+    z-index: -1;
+}
+
+.paraitem{
+    position: relative;
+    background-color: rgb(225, 225, 225,0.8);
+    margin: 20px;
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: 1.3em;
+    width: 90vw;
+}
+
+
+.liitem{
+    position: relative;
+    background-color: rgb(225, 225, 225,0.8);
+    margin: 20px;
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: larger;
+    width: 90vw;
+}
+
+.paraitem:hover{
+    transform: scale(1.05);
+    background-color: #ccfbf1;
+}
+
+.liitem:hover{
+    transform: scale(1.05);
+    background-color: #ccfbf1;
+}
+

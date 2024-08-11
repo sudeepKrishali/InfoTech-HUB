@@ -1,0 +1,27 @@
+.body{
+    margin: 0;
+    background-color: #dbeafe;
+}
+
+.star-active{
+    color:yellow;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Rateus{
+    background-color: rgb(94, 93, 93);
+    color: white;
+    height: 35px;
+    width: 160px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+    border-radius: 10px;
+}
+
