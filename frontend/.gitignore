@@ -23,6 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-frontend/.eslintrc.cjs
-frontend/package.json
-frontend/yarn.lock
+.eslintrc.cjs
+package.json
+yarn.lock
